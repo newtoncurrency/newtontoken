@@ -1,0 +1,22 @@
+{
+  "name": "newtontoken",
+  "version": "0.0.0",
+  "description": "Newton Ethereum token contract",
+  "scripts": {
+    "test": "truffle test",
+    "start": "truffle develop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newtoncurrency/newtontoken.git"
+  },
+  "author": "Isaac Newton <info@newtoncurrency.org>",
+  "bugs": {
+    "url": "https://github.com/newtoncurrency/newtontoken/issues"
+  },
+  "homepage": "https://github.com/newtoncurrency/newtontoken#readme",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.2.2",
+    "truffle": "^5.2.3"
+  }
+}
