@@ -1,0 +1,19 @@
+{
+  "name": "Newton Currency",
+  "timestamp": "2021-04-18T14:40:01.076Z",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 9
+  },
+  "tokens": [
+    {
+      "name": "Newton",
+      "address": "0x38Bd55A35e97e1289AaBeFc10e682524cB7b57e8",
+      "symbol": "NTQ",
+      "decimals": 2,
+      "chainId": 97,
+      "logoURI": "https://newtoncurrency.org/logo.svg"
+    }
+  ]
+}
