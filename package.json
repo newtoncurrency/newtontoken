@@ -1,6 +1,6 @@
 {
   "name": "newtontoken",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Newton Ethereum token contract",
   "scripts": {
     "test": "truffle test",
@@ -15,6 +15,9 @@
     "url": "https://github.com/newtoncurrency/newtontoken/issues"
   },
   "homepage": "https://github.com/newtoncurrency/newtontoken#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "2.0.0"
+  },
   "devDependencies": {
     "@truffle/hdwallet-provider": "^1.2.2",
     "truffle": "^5.2.3"
