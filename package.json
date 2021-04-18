@@ -1,6 +1,6 @@
 {
   "name": "newtontoken",
-  "version": "0.0.1",
+  "version": "0.9.0",
   "description": "Newton Ethereum token contract",
   "scripts": {
     "test": "truffle test",
