@@ -2484,6 +2484,125 @@
     "version": "0.4.25+commit.59dbf8f1.Emscripten.clang"
   },
   "networks": {
+    "56": {
+      "events": {
+        "0x4a0cae9fa8088217975f73f445a81109e5256f7c688bf0826c37801ab0d2a364": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "to",
+              "type": "uint256"
+            }
+          ],
+          "name": "Commission",
+          "type": "event"
+        },
+        "0xd82a0903e72ca8ba4be37c6137656047ad67ca572b4cf45bf37469420d7092f3": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "from",
+              "type": "uint256"
+            },
+            {
+              "indexed": true,
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transmission",
+          "type": "event"
+        },
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        },
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "spender",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event"
+        },
+        "0xc4195c06a93f9250a2b0f6c1a5a6485eb4a54bd7359b57ba9725486bac7e9d41": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "to",
+              "type": "address"
+            }
+          ],
+          "name": "Migration",
+          "type": "event"
+        },
+        "0xd1dece0aff18c656d85e3dd8e7ccf487f4d617cb4ab2faff8d129f0ccd886f8f": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "to",
+              "type": "address"
+            }
+          ],
+          "name": "Transition",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x20520222904E59Dff5083e38265Ea5098B1B257b",
+      "transactionHash": "0x8abd7394f164742234370735fcdc3d20a159e67f1eccaf660b50d7cfa6118be1"
+    },
     "97": {
       "events": {
         "0x4a0cae9fa8088217975f73f445a81109e5256f7c688bf0826c37801ab0d2a364": {

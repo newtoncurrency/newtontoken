@@ -597,6 +597,42 @@
     "version": "0.4.25+commit.59dbf8f1.Emscripten.clang"
   },
   "networks": {
+    "56": {
+      "events": {
+        "0xc4195c06a93f9250a2b0f6c1a5a6485eb4a54bd7359b57ba9725486bac7e9d41": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "to",
+              "type": "address"
+            }
+          ],
+          "name": "Migration",
+          "type": "event"
+        },
+        "0xd1dece0aff18c656d85e3dd8e7ccf487f4d617cb4ab2faff8d129f0ccd886f8f": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "to",
+              "type": "address"
+            }
+          ],
+          "name": "Transition",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xAD735065FCB70F3f3DA19F36b75b88c9462DF1E1",
+      "transactionHash": "0x38d21d648eb92f222a241061f493134f5585ebf461c551038b3b33b4a038163e"
+    },
     "97": {
       "events": {
         "0xc4195c06a93f9250a2b0f6c1a5a6485eb4a54bd7359b57ba9725486bac7e9d41": {

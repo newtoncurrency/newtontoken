@@ -9,6 +9,14 @@
   "tokens": [
     {
       "name": "Newton",
+      "address": "0x20520222904E59Dff5083e38265Ea5098B1B257b",
+      "symbol": "NTQ",
+      "decimals": 2,
+      "chainId": 56,
+      "logoURI": "https://newtoncurrency.org/logo.svg"
+    },
+    {
+      "name": "Newton",
       "address": "0x38Bd55A35e97e1289AaBeFc10e682524cB7b57e8",
       "symbol": "NTQ",
       "decimals": 2,
